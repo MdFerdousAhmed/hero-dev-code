@@ -229,5 +229,6 @@ footer .footer-container{
   color: #757575;
 }
 #banner .banner-image img{
-  background: none;
+  max-width: 900px; 
+  vertical-align: middle;
 }
