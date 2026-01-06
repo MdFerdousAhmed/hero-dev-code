@@ -48,6 +48,12 @@
 .text-center{
   text-align: center;
 }
+.container{
+  width: 75%;
+  max-width: 1140px;
+  /* border: 1px solid red; */
+  margin: 0px auto;
+}
 
 /* main style */
 header{
@@ -58,10 +64,6 @@ header{
   padding-top: 50px;
 }
 nav{
-  width: 75%;
-  max-width: 1140px;
-  /* border: 1px solid red; */
-  margin: 0px auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -114,9 +116,6 @@ nav .menu a{
   padding-top: 130px;
 }
 #about .about-container{
-  width: 71%;
-  max-width: 1140px;
-  margin: 0 auto;
   text-align: center;
   background-color: #FFF8F3;
   padding: 131px 157px;
@@ -136,11 +135,6 @@ nav .menu a{
 }
 #skills{
   padding-top: 130px;
-}
-#skills .skills-container{
-  width: 71%;
-  max-width: 1140px;
-  margin: 0 auto;
 }
 #skills .skills-container .skill-box{
   display: flex;
@@ -167,9 +161,7 @@ nav .menu a{
   line-height: 28px;
 }
 #resume .resume-container{
-  width: 71%;
-  max-width: 1140px;
-  margin:113px auto 0;
+  margin-top: 113px;
   display: flex;
   gap: 24px;
 }
@@ -208,9 +200,6 @@ footer{
   padding: 130px 0;
 }
 footer .footer-container{
-  width: 71%;
-  max-width: 1140px;
-  margin: 0 auto;
   display: flex;
   gap: 116px;
 }
@@ -238,4 +227,7 @@ footer .footer-container{
   border: none;
   border-radius: 5px;
   color: #757575;
+}
+#banner .banner-image img{
+  background: none;
 }
